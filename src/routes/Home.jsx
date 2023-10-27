@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Movie from "./components/Movie";
+import Movie from "../components/Movie";
 
 /*CSS*/
 import "./Home.css";
@@ -34,6 +34,7 @@ function Home() {
               title={movie.title}
               summary={movie.summary}
               poster={movie.medium_cover_image}
+              x
               genres={movie.genres}
             />
           ))}

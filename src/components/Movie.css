@@ -1,0 +1,26 @@
+.movies__movie {
+  width: 700px;
+  display: flex;
+  margin: 20px;
+  border: solid 2px black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.movies__movie img {
+  width: 170px;
+  height: 100%;
+}
+
+.movie__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 20px;
+}
+
+.movie__title {
+  margin: 20px 0px;
+  font-size: 28px;
+  font-weight: 600;
+}
